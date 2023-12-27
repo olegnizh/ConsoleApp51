@@ -63,7 +63,13 @@ namespace ConsoleApp529
 
                     Console.WriteLine("Your color is cyan!");
                     break;
- 
+                default:
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    Console.WriteLine("Your color is yellow!");
+                    break;
+
             }
 
             return color;
