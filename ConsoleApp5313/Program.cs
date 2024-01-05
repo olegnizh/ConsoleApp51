@@ -12,7 +12,7 @@ namespace ConsoleApp5313
             // init             
             var array = GetArrayFromConsole( array_length );           
             // actions
-            SortArray(in array, out array_a, out array_d);
+            SortArray(in array, out int[] array_a, out int[] array_d);
             // view result
             Console.WriteLine("\n");
             Console.WriteLine("Массив - по возрастанию");
